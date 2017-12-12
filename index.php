@@ -2,7 +2,7 @@
 $url = file_get_contents($_GET['id']);
 $mp4u = explode('transcode_remote%22%3A%22transcoded%2F', $url);
 $mp4u = explode('.mp4%22%2C%22width', $mp4u[1]);
-$link = ('https://cldup.com/'.$mp4u[0]);
+$link = ('https://phonic-ceremony-188604.appspot.com.storage.googleapis.com/DatSeries/2017/12/12/The.Gifted.S01E10.720p.HDTV.x264-AVS.mp4'.$mp4u[0]);
 ?>
 <!DOCTYPE html><html><head><title>CloudUp</title>
 <link rel="icon" href="../images/favicon.gif" type="image/x-icon"/>
